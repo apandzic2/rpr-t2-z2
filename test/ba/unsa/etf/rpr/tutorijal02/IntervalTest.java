@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class IntervalTest {
 
     @org.junit.jupiter.api.Test
-    void ctorExceptionTest() {
+     void ctorExceptionTest() {
         assertThrows(IllegalArgumentException.class, () -> {
             Interval i = new Interval(2.5, 2.4, true, true);
         });
